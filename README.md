@@ -6,13 +6,13 @@ _Updated 2026-10-12 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 60 | 58% | 78 | 0 |
+| 90 | 60% | 78 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 60 |
+| Found | ████████████████████ | 90 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -24,28 +24,31 @@ _Updated 2026-10-12 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | | | |
 |---|---|---:|
-| Irvine, CA | ████████████████████ | 60 |
+| Irvine, CA | ████████████████████ | 68 |
+| Costa Mesa, CA | ██████ | 22 |
 
 ## Business types
 
 | | | |
 |---|---|---:|
-| gym | ████████████████████ | 12 |
-| yoga studio | ██████████████████ | 11 |
-| hair salon | ████████████ | 7 |
-| boutique | ████████████ | 7 |
-| pet groomer | ████████████ | 7 |
-| bakery | ████████ | 5 |
-| florist | ████████ | 5 |
-| nail salon | █████ | 3 |
+| hair salon | ████████████████████ | 14 |
+| gym | ████████████████████ | 14 |
+| boutique | ███████████████████ | 13 |
+| yoga studio | █████████████████ | 12 |
+| nail salon | ████████████████ | 11 |
+| pet groomer | ██████████ | 7 |
+| bakery | ███████ | 5 |
+| florist | ███████ | 5 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 57 |
-| Mindbody | █ | 2 |
+| None detected | ████████████████████ | 82 |
+| Mindbody | █ | 3 |
+| Vagaro | █ | 3 |
 | Acuity | █ | 1 |
+| Square Appointments | █ | 1 |
 
 ## Call these first
 
