@@ -23,9 +23,11 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python leadbot.py --max 30
+      - name: Build dashboard (README.md)
+        run: python dashboard.py
       - name: Save new leads
         run: |
           git config user.name "leadbot"
           git config user.email "leadbot@users.noreply.github.com"
-          git add leads.csv
+          git add leads.csv README.md
           git diff --cached --quiet || (git commit -m "New leads $(date -u +%F)" && git push)
