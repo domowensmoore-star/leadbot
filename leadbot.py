@@ -41,7 +41,7 @@ UA = "RoundTwoLeadBot/1.0 (+contact: domowensmoore@gmail.com)"
 
 FIELDS = ["date_found", "business", "category", "city", "address", "phone",
           "website", "rating", "reviews", "contact_email", "has_signup",
-          "email_platform", "gap_note", "score", "draft", "stage"]
+          "email_platform", "booking_platform", "gap_note", "score", "draft", "stage"]
 
 PLATFORMS = {
     "mailchimp": ["list-manage.com", "mailchimp.com", "chimpstatic"],
@@ -51,6 +51,21 @@ PLATFORMS = {
     "shopify": ["cdn.shopify.com", "myshopify"],
     "wix": ["wixstatic.com", "wix.com"],
     "wordpress": ["wp-content"],
+}
+# Booking tools that usually include built-in email/text marketing
+BOOKING = {
+    "Mindbody": ["mindbodyonline.com", "clients.mindbodyonline"],
+    "Vagaro": ["vagaro.com"],
+    "Boulevard": ["joinblvd.com", "blvd.me"],
+    "Square Appointments": ["squareup.com/appointments", "book.squareup.com", "square.site"],
+    "Acuity": ["acuityscheduling.com", "as.me/"],
+    "Fresha": ["fresha.com"],
+    "Booksy": ["booksy.com"],
+    "GlossGenius": ["glossgenius.com"],
+    "Schedulicity": ["schedulicity.com"],
+    "Zenoti": ["zenoti.com"],
+    "WellnessLiving": ["wellnessliving.com"],
+    "Setmore": ["setmore.com"],
 }
 SIGNUP_WORDS = re.compile(r"(newsletter|subscribe|join (our|the) (list|club)|"
                           r"sign ?up for|email list|get updates|stay in touch)", re.I)
@@ -120,12 +135,15 @@ def analyze_html(html):
         emails.add(a["href"][7:].split("?")[0].strip())
     emails.update(EMAIL_RE.findall(soup.get_text(" ")))
     emails = {e for e in emails if not JUNK_EMAIL.search(e)}
-    return has_form, platform, sorted(emails)
+    booking = next((name for name, keys in BOOKING.items()
+                    if any(k in low for k in keys)), "")
+    return has_form, platform, sorted(emails), booking
 
 
 def inspect_site(url):
     """Check homepage plus a contact page. Returns a dict."""
-    out = {"has_signup": False, "platform": "", "email": "", "reachable": False}
+    out = {"has_signup": False, "platform": "", "email": "", "reachable": False,
+           "booking": ""}
     html = fetch(url)
     if not html:
         return out
@@ -142,9 +160,10 @@ def inspect_site(url):
                 break
     emails = []
     for h in pages:
-        s, p, e = analyze_html(h)
+        s, p, e, bk = analyze_html(h)
         out["has_signup"] = out["has_signup"] or s
         out["platform"] = out["platform"] or p
+        out["booking"] = out["booking"] or bk
         emails += e
     domain = urlparse(url).netloc.replace("www.", "")
     own = [e for e in emails if domain.split(".")[0] in e.lower()]
@@ -155,7 +174,14 @@ def inspect_site(url):
 def gap_and_score(info, rating, reviews):
     if not info["reachable"]:
         return "site unreachable", 0
-    if not info["has_signup"]:
+    bk = info.get("booking", "")
+    if bk and not info["platform"]:
+        # Booking tool but no separate email platform: marketing features are
+        # often built in but unused. Worth contacting, with a different angle.
+        note = (f"uses {bk} for booking; ask whether they use its email tools "
+                f"to bring back clients who haven't rebooked")
+        score = 50 if not info["has_signup"] else 45
+    elif not info["has_signup"]:
         note, score = "no email signup found on the site", 60
     elif info["platform"]:
         note, score = f"has a {info['platform']} signup; ask what happens after someone signs up", 30
@@ -172,9 +198,14 @@ def gap_and_score(info, rating, reviews):
 
 
 def draft_email(biz, note):
+    angle = ""
+    if biz.get("booking"):
+        angle = (f"They use {biz['booking']} for booking, so do not say they have no email "
+                 f"system. Ask whether they use its email tools to bring back clients who "
+                 f"haven't rebooked in a while. ")
     prompt = (f"Write a first cold email, under 90 words, plain and human, no dashes, "
               f"no hype. To the owner of {biz['name']} ({biz['category']}, {biz['city']}). "
-              f"Specific observation: {note}. Sender is {SENDER_NAME}: {SENDER_BLURB} "
+              f"Specific observation: {note}. {angle}Sender is {SENDER_NAME}: {SENDER_BLURB} "
               f"Ask only for a free 20 minute look at their email setup. "
               f"Include a subject line. Sign off with the sender name and 'Round Two Marketing'.")
     if os.getenv("ANTHROPIC_API_KEY"):
@@ -187,6 +218,14 @@ def draft_email(biz, note):
             return msg.content[0].text.strip()
         except Exception as e:  # fall back to template
             print(f"  (draft fell back to template: {e})", file=sys.stderr)
+    if biz.get("booking"):
+        return (f"Subject: Bringing back past clients at {biz['name']}\n\n"
+                f"Hi,\n\nI saw {biz['name']} uses {biz['booking']} for booking. Are you using "
+                f"its email tools to reach clients who haven't rebooked in a while? "
+                f"Most owners I talk to only use it for reminders.\n\n"
+                f"{SENDER_BLURB} I'd be glad to take a free 20 minute look at your setup and "
+                f"show you a simple win-back email. Worth a quick call this week?\n\n"
+                f"{SENDER_NAME}\nRound Two Marketing")
     return (f"Subject: Quick question about {biz['name']}'s email list\n\n"
             f"Hi,\n\nI was looking at {biz['name']} and noticed {note}. "
             f"That usually means customers who liked you once never hear from you again.\n\n"
@@ -202,6 +241,24 @@ def load_seen(path):
         return {r["website"] for r in csv.DictReader(f)}
 
 
+def migrate_header(path):
+    """If leads.csv was written by an older version, rewrite it with the new columns."""
+    if not os.path.exists(path):
+        return
+    with open(path, newline="", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+        header = rows and list(rows[0].keys())
+    if not rows:
+        with open(path, "w", newline="", encoding="utf-8") as f:
+            csv.DictWriter(f, fieldnames=FIELDS).writeheader()
+        return
+    if header != FIELDS:
+        with open(path, "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=FIELDS, extrasaction="ignore", restval="")
+            w.writeheader()
+            w.writerows(rows)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--max", type=int, default=30, help="max new leads this run")
@@ -211,6 +268,7 @@ def main():
     if not key:
         sys.exit("Set GOOGLE_API_KEY first.")
 
+    migrate_header(OUTFILE)
     seen = load_seen(OUTFILE)
     new_file = not os.path.exists(OUTFILE)
     added = 0
@@ -240,7 +298,8 @@ def main():
                     note, score = gap_and_score(info, p.get("rating"), p.get("userRatingCount"))
                     if score < 50 or not info["email"]:
                         continue  # keep only reachable leads worth contacting
-                    biz = {"name": name, "category": cat, "city": city}
+                    biz = {"name": name, "category": cat, "city": city,
+                           "booking": info.get("booking", "")}
                     w.writerow({
                         "date_found": date.today().isoformat(), "business": name,
                         "category": cat, "city": city,
@@ -249,7 +308,8 @@ def main():
                         "rating": p.get("rating", ""), "reviews": p.get("userRatingCount", ""),
                         "contact_email": info["email"],
                         "has_signup": "yes" if info["has_signup"] else "no",
-                        "email_platform": info["platform"], "gap_note": note,
+                        "email_platform": info["platform"],
+                        "booking_platform": info.get("booking", ""), "gap_note": note,
                         "score": score, "draft": draft_email(biz, note), "stage": "Found",
                     })
                     f.flush()
