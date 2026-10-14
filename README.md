@@ -1,18 +1,18 @@
 # Round Two Leads
 
-_Updated 2026-10-13 by the lead bot. Leads are in [leads.csv](leads.csv)._
+_Updated 2026-10-14 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 ## At a glance
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 120 | 62% | 78 | 0 |
+| 150 | 65% | 79 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 120 |
+| Found | ████████████████████ | 150 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -24,32 +24,34 @@ _Updated 2026-10-13 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | | | |
 |---|---|---:|
-| Irvine, CA | ████████████████████ | 79 |
-| Costa Mesa, CA | ██████████ | 41 |
+| Irvine, CA | ████████████████████ | 83 |
+| Costa Mesa, CA | ██████████████ | 59 |
+| Santa Monica, CA | ██ | 8 |
 
 ## Business types
 
 | | | |
 |---|---|---:|
-| yoga studio | ████████████████████ | 22 |
-| gym | ███████████████████ | 21 |
-| hair salon | ███████████████ | 17 |
-| boutique | █████████████ | 14 |
-| nail salon | ████████████ | 13 |
-| coffee shop | ██████ | 7 |
-| bakery | ██████ | 7 |
-| pet groomer | ██████ | 7 |
+| hair salon | ████████████████████ | 25 |
+| gym | ████████████████████ | 25 |
+| yoga studio | ██████████████████ | 23 |
+| boutique | ████████████ | 15 |
+| nail salon | ██████████ | 13 |
+| restaurant | ██████████ | 12 |
+| florist | ████████ | 10 |
+| pet groomer | ████████ | 10 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 107 |
+| None detected | ████████████████████ | 131 |
 | Mindbody | █ | 5 |
-| Vagaro | █ | 3 |
+| Vagaro | █ | 4 |
+| Square Appointments | █ | 4 |
+| WellnessLiving | █ | 3 |
 | Acuity | █ | 2 |
-| WellnessLiving | █ | 2 |
-| Square Appointments | █ | 1 |
+| GlossGenius | █ | 1 |
 
 ## Call these first
 
