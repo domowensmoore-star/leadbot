@@ -1,18 +1,18 @@
 # Round Two Leads
 
-_Updated 2026-10-19 by the lead bot. Leads are in [leads.csv](leads.csv)._
+_Updated 2026-10-20 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 ## At a glance
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 240 | 66% | 81 | 0 |
+| 270 | 66% | 81 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 240 |
+| Found | ████████████████████ | 270 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -24,34 +24,36 @@ _Updated 2026-10-19 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | | | |
 |---|---|---:|
-| Irvine, CA | ████████████████████ | 91 |
-| Santa Monica, CA | ██████████████████ | 81 |
-| Costa Mesa, CA | ███████████████ | 68 |
+| Irvine, CA | ████████████████████ | 94 |
+| Santa Monica, CA | ███████████████████ | 89 |
+| Costa Mesa, CA | ███████████████ | 70 |
+| Pasadena, CA | ████ | 17 |
 
 ## Business types
 
 | | | |
 |---|---|---:|
-| gym | ████████████████████ | 36 |
-| yoga studio | ███████████████████ | 35 |
-| hair salon | ███████████████████ | 34 |
-| nail salon | ██████████████ | 25 |
-| pet groomer | ████████████ | 21 |
-| boutique | ███████████ | 20 |
-| florist | ███████████ | 20 |
-| bakery | ██████████ | 18 |
+| hair salon | ████████████████████ | 42 |
+| yoga studio | ██████████████████ | 37 |
+| gym | █████████████████ | 36 |
+| nail salon | ██████████████ | 29 |
+| boutique | ████████████ | 25 |
+| florist | ███████████ | 24 |
+| pet groomer | ██████████ | 22 |
+| restaurant | ██████████ | 20 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 208 |
-| Mindbody | █ | 10 |
-| Vagaro | █ | 9 |
-| Square Appointments | █ | 6 |
+| None detected | ████████████████████ | 231 |
+| Mindbody | █ | 12 |
+| Vagaro | █ | 10 |
+| Square Appointments | █ | 8 |
 | Acuity | █ | 3 |
 | WellnessLiving | █ | 3 |
-| GlossGenius | █ | 1 |
+| GlossGenius | █ | 2 |
+| Boulevard | █ | 1 |
 
 ## Call these first
 
