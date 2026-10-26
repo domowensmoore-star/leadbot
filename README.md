@@ -1,18 +1,18 @@
 # Round Two Leads
 
-_Updated 2026-10-23 by the lead bot. Leads are in [leads.csv](leads.csv)._
+_Updated 2026-10-26 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 ## At a glance
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 360 | 68% | 82 | 0 |
+| 390 | 67% | 82 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 360 |
+| Found | ████████████████████ | 390 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -24,36 +24,37 @@ _Updated 2026-10-23 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | | | |
 |---|---|---:|
-| Irvine, CA | ████████████████████ | 99 |
-| Santa Monica, CA | ████████████████████ | 98 |
-| Pasadena, CA | ██████████████████ | 88 |
-| Costa Mesa, CA | ███████████████ | 75 |
+| Santa Monica, CA | ████████████████████ | 104 |
+| Irvine, CA | ███████████████████ | 100 |
+| Pasadena, CA | ██████████████████ | 96 |
+| Costa Mesa, CA | ███████████████ | 77 |
+| Long Beach, CA | ██ | 13 |
 
 ## Business types
 
 | | | |
 |---|---|---:|
-| yoga studio | ████████████████████ | 53 |
-| florist | ███████████████████ | 51 |
-| gym | █████████████████ | 46 |
-| hair salon | ████████████████ | 43 |
-| pet groomer | ████████████ | 31 |
-| nail salon | ███████████ | 29 |
-| boutique | ███████████ | 29 |
-| restaurant | ███████████ | 29 |
+| hair salon | ████████████████████ | 54 |
+| yoga studio | ████████████████████ | 54 |
+| florist | ████████████████████ | 53 |
+| gym | █████████████████ | 47 |
+| nail salon | █████████████ | 35 |
+| restaurant | █████████████ | 34 |
+| boutique | ███████████ | 31 |
+| pet groomer | ███████████ | 31 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 310 |
+| None detected | ████████████████████ | 336 |
 | Mindbody | █ | 18 |
+| Vagaro | █ | 12 |
 | Square Appointments | █ | 11 |
-| Vagaro | █ | 10 |
 | Acuity | █ | 4 |
 | WellnessLiving | █ | 4 |
-| GlossGenius | █ | 2 |
-| Boulevard | █ | 1 |
+| GlossGenius | █ | 3 |
+| Boulevard | █ | 2 |
 
 ## Call these first
 
