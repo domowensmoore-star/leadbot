@@ -1,18 +1,18 @@
 # Round Two Leads
 
-_Updated 2026-10-26 by the lead bot. Leads are in [leads.csv](leads.csv)._
+_Updated 2026-10-27 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 ## At a glance
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 390 | 67% | 82 | 0 |
+| 420 | 67% | 81 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 390 |
+| Found | ████████████████████ | 420 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -24,33 +24,33 @@ _Updated 2026-10-26 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | | | |
 |---|---|---:|
-| Santa Monica, CA | ████████████████████ | 104 |
-| Irvine, CA | ███████████████████ | 100 |
-| Pasadena, CA | ██████████████████ | 96 |
-| Costa Mesa, CA | ███████████████ | 77 |
-| Long Beach, CA | ██ | 13 |
+| Santa Monica, CA | ████████████████████ | 105 |
+| Irvine, CA | ███████████████████ | 101 |
+| Pasadena, CA | ███████████████████ | 99 |
+| Costa Mesa, CA | ███████████████ | 78 |
+| Long Beach, CA | ███████ | 37 |
 
 ## Business types
 
 | | | |
 |---|---|---:|
-| hair salon | ████████████████████ | 54 |
-| yoga studio | ████████████████████ | 54 |
-| florist | ████████████████████ | 53 |
-| gym | █████████████████ | 47 |
-| nail salon | █████████████ | 35 |
-| restaurant | █████████████ | 34 |
-| boutique | ███████████ | 31 |
-| pet groomer | ███████████ | 31 |
+| yoga studio | ████████████████████ | 65 |
+| florist | █████████████████ | 56 |
+| hair salon | █████████████████ | 55 |
+| gym | ███████████████ | 48 |
+| nail salon | ███████████ | 36 |
+| restaurant | ███████████ | 35 |
+| boutique | ██████████ | 32 |
+| bakery | ██████████ | 32 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 336 |
-| Mindbody | █ | 18 |
+| None detected | ████████████████████ | 362 |
+| Mindbody | █ | 19 |
+| Square Appointments | █ | 14 |
 | Vagaro | █ | 12 |
-| Square Appointments | █ | 11 |
 | Acuity | █ | 4 |
 | WellnessLiving | █ | 4 |
 | GlossGenius | █ | 3 |
