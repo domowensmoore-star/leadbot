@@ -1,18 +1,18 @@
 # Round Two Leads
 
-_Updated 2026-10-28 by the lead bot. Leads are in [leads.csv](leads.csv)._
+_Updated 2026-10-29 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 ## At a glance
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 450 | 66% | 81 | 0 |
+| 480 | 66% | 82 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 450 |
+| Found | ████████████████████ | 480 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -24,11 +24,12 @@ _Updated 2026-10-28 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | | | |
 |---|---|---:|
-| Santa Monica, CA | ████████████████████ | 106 |
+| Santa Monica, CA | ████████████████████ | 107 |
 | Irvine, CA | ███████████████████ | 103 |
 | Pasadena, CA | ███████████████████ | 99 |
 | Costa Mesa, CA | ███████████████ | 80 |
-| Long Beach, CA | ████████████ | 62 |
+| Long Beach, CA | █████████████ | 72 |
+| Huntington Beach, CA | ████ | 19 |
 
 ## Business types
 
@@ -36,24 +37,24 @@ _Updated 2026-10-28 by the lead bot. Leads are in [leads.csv](leads.csv)._
 |---|---|---:|
 | florist | ████████████████████ | 72 |
 | yoga studio | ███████████████████ | 67 |
-| hair salon | ████████████████ | 56 |
+| hair salon | ██████████████████ | 65 |
 | gym | ████████████████ | 56 |
-| nail salon | ██████████ | 36 |
-| restaurant | ██████████ | 35 |
-| pet groomer | █████████ | 34 |
-| bakery | █████████ | 33 |
+| restaurant | ███████████ | 41 |
+| nail salon | ███████████ | 39 |
+| pet groomer | ██████████ | 37 |
+| coffee shop | ██████████ | 36 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 391 |
+| None detected | ████████████████████ | 413 |
 | Mindbody | █ | 19 |
-| Square Appointments | █ | 15 |
-| Vagaro | █ | 12 |
+| Vagaro | █ | 17 |
+| Square Appointments | █ | 16 |
 | Acuity | █ | 4 |
 | WellnessLiving | █ | 4 |
-| GlossGenius | █ | 3 |
+| GlossGenius | █ | 4 |
 | Boulevard | █ | 2 |
 
 ## Call these first
