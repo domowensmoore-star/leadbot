@@ -1,18 +1,18 @@
 # Round Two Leads
 
-_Updated 2026-10-29 by the lead bot. Leads are in [leads.csv](leads.csv)._
+_Updated 2026-10-30 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 ## At a glance
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 480 | 66% | 82 | 0 |
+| 510 | 66% | 81 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 480 |
+| Found | ████████████████████ | 510 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -24,36 +24,36 @@ _Updated 2026-10-29 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | | | |
 |---|---|---:|
-| Santa Monica, CA | ████████████████████ | 107 |
+| Santa Monica, CA | ████████████████████ | 108 |
 | Irvine, CA | ███████████████████ | 103 |
-| Pasadena, CA | ███████████████████ | 99 |
-| Costa Mesa, CA | ███████████████ | 80 |
-| Long Beach, CA | █████████████ | 72 |
-| Huntington Beach, CA | ████ | 19 |
+| Pasadena, CA | ███████████████████ | 100 |
+| Costa Mesa, CA | ███████████████ | 81 |
+| Long Beach, CA | ██████████████ | 74 |
+| Huntington Beach, CA | ████████ | 44 |
 
 ## Business types
 
 | | | |
 |---|---|---:|
-| florist | ████████████████████ | 72 |
-| yoga studio | ███████████████████ | 67 |
-| hair salon | ██████████████████ | 65 |
-| gym | ████████████████ | 56 |
+| yoga studio | ████████████████████ | 76 |
+| florist | ████████████████████ | 75 |
+| hair salon | █████████████████ | 66 |
+| gym | █████████████████ | 64 |
 | restaurant | ███████████ | 41 |
-| nail salon | ███████████ | 39 |
-| pet groomer | ██████████ | 37 |
-| coffee shop | ██████████ | 36 |
+| bakery | ███████████ | 40 |
+| nail salon | ██████████ | 39 |
+| coffee shop | ██████████ | 37 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 413 |
-| Mindbody | █ | 19 |
+| None detected | ████████████████████ | 441 |
+| Mindbody | █ | 20 |
 | Vagaro | █ | 17 |
 | Square Appointments | █ | 16 |
+| WellnessLiving | █ | 5 |
 | Acuity | █ | 4 |
-| WellnessLiving | █ | 4 |
 | GlossGenius | █ | 4 |
 | Boulevard | █ | 2 |
 
