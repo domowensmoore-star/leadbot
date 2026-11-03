@@ -1,18 +1,18 @@
 # Round Two Leads
 
-_Updated 2026-10-30 by the lead bot. Leads are in [leads.csv](leads.csv)._
+_Updated 2026-11-03 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 ## At a glance
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 510 | 66% | 81 | 0 |
+| 540 | 66% | 81 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 510 |
+| Found | ████████████████████ | 540 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -24,34 +24,34 @@ _Updated 2026-10-30 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | | | |
 |---|---|---:|
-| Santa Monica, CA | ████████████████████ | 108 |
-| Irvine, CA | ███████████████████ | 103 |
-| Pasadena, CA | ███████████████████ | 100 |
-| Costa Mesa, CA | ███████████████ | 81 |
-| Long Beach, CA | ██████████████ | 74 |
-| Huntington Beach, CA | ████████ | 44 |
+| Santa Monica, CA | ████████████████████ | 113 |
+| Irvine, CA | ██████████████████ | 104 |
+| Pasadena, CA | ██████████████████ | 100 |
+| Costa Mesa, CA | ███████████████ | 82 |
+| Long Beach, CA | ███████████████ | 82 |
+| Huntington Beach, CA | ██████████ | 59 |
 
 ## Business types
 
 | | | |
 |---|---|---:|
-| yoga studio | ████████████████████ | 76 |
-| florist | ████████████████████ | 75 |
-| hair salon | █████████████████ | 66 |
-| gym | █████████████████ | 64 |
-| restaurant | ███████████ | 41 |
-| bakery | ███████████ | 40 |
+| florist | ████████████████████ | 80 |
+| yoga studio | ████████████████████ | 79 |
+| hair salon | ████████████████ | 66 |
+| gym | ████████████████ | 66 |
+| restaurant | ████████████ | 47 |
+| bakery | ███████████ | 43 |
+| pet groomer | ██████████ | 42 |
 | nail salon | ██████████ | 39 |
-| coffee shop | ██████████ | 37 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 441 |
-| Mindbody | █ | 20 |
+| None detected | ████████████████████ | 468 |
+| Mindbody | █ | 21 |
+| Square Appointments | █ | 18 |
 | Vagaro | █ | 17 |
-| Square Appointments | █ | 16 |
 | WellnessLiving | █ | 5 |
 | Acuity | █ | 4 |
 | GlossGenius | █ | 4 |
