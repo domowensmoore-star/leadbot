@@ -1,18 +1,18 @@
 # Round Two Leads
 
-_Updated 2026-11-03 by the lead bot. Leads are in [leads.csv](leads.csv)._
+_Updated 2026-11-04 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 ## At a glance
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 540 | 66% | 81 | 0 |
+| 550 | 67% | 81 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 540 |
+| Found | ████████████████████ | 550 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -24,31 +24,31 @@ _Updated 2026-11-03 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | | | |
 |---|---|---:|
-| Santa Monica, CA | ████████████████████ | 113 |
-| Irvine, CA | ██████████████████ | 104 |
-| Pasadena, CA | ██████████████████ | 100 |
-| Costa Mesa, CA | ███████████████ | 82 |
-| Long Beach, CA | ███████████████ | 82 |
+| Santa Monica, CA | ████████████████████ | 115 |
+| Irvine, CA | ██████████████████ | 105 |
+| Pasadena, CA | ██████████████████ | 103 |
+| Long Beach, CA | ███████████████ | 86 |
+| Costa Mesa, CA | ██████████████ | 82 |
 | Huntington Beach, CA | ██████████ | 59 |
 
 ## Business types
 
 | | | |
 |---|---|---:|
-| florist | ████████████████████ | 80 |
-| yoga studio | ████████████████████ | 79 |
+| florist | ████████████████████ | 81 |
+| yoga studio | ████████████████████ | 80 |
+| gym | █████████████████ | 67 |
 | hair salon | ████████████████ | 66 |
-| gym | ████████████████ | 66 |
-| restaurant | ████████████ | 47 |
+| restaurant | █████████████ | 51 |
 | bakery | ███████████ | 43 |
 | pet groomer | ██████████ | 42 |
-| nail salon | ██████████ | 39 |
+| boutique | ██████████ | 41 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 468 |
+| None detected | ████████████████████ | 478 |
 | Mindbody | █ | 21 |
 | Square Appointments | █ | 18 |
 | Vagaro | █ | 17 |
