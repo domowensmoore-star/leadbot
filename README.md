@@ -1,18 +1,18 @@
 # Round Two Leads
 
-_Updated 2026-11-05 by the lead bot. Leads are in [leads.csv](leads.csv)._
+_Updated 2026-11-06 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 ## At a glance
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 553 | 67% | 81 | 0 |
+| 564 | 67% | 81 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 553 |
+| Found | ████████████████████ | 564 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -24,33 +24,33 @@ _Updated 2026-11-05 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | | | |
 |---|---|---:|
-| Santa Monica, CA | ████████████████████ | 115 |
-| Irvine, CA | ██████████████████ | 105 |
-| Pasadena, CA | ██████████████████ | 103 |
-| Long Beach, CA | ███████████████ | 88 |
-| Costa Mesa, CA | ██████████████ | 82 |
-| Huntington Beach, CA | ██████████ | 60 |
+| Santa Monica, CA | ████████████████████ | 116 |
+| Irvine, CA | ██████████████████ | 107 |
+| Pasadena, CA | ██████████████████ | 104 |
+| Long Beach, CA | ████████████████ | 91 |
+| Costa Mesa, CA | ██████████████ | 84 |
+| Huntington Beach, CA | ███████████ | 62 |
 
 ## Business types
 
 | | | |
 |---|---|---:|
-| florist | ████████████████████ | 81 |
-| yoga studio | ████████████████████ | 80 |
-| gym | █████████████████ | 67 |
+| yoga studio | ████████████████████ | 84 |
+| florist | ███████████████████ | 81 |
+| gym | ████████████████ | 69 |
 | hair salon | ████████████████ | 66 |
-| restaurant | █████████████ | 54 |
-| bakery | ███████████ | 43 |
-| pet groomer | ██████████ | 42 |
-| boutique | ██████████ | 41 |
+| restaurant | █████████████ | 55 |
+| boutique | ██████████ | 43 |
+| bakery | ██████████ | 43 |
+| coffee shop | ██████████ | 42 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 481 |
+| None detected | ████████████████████ | 491 |
 | Mindbody | █ | 21 |
-| Square Appointments | █ | 18 |
+| Square Appointments | █ | 19 |
 | Vagaro | █ | 17 |
 | WellnessLiving | █ | 5 |
 | Acuity | █ | 4 |
