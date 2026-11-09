@@ -1,18 +1,18 @@
 # Round Two Leads
 
-_Updated 2026-11-06 by the lead bot. Leads are in [leads.csv](leads.csv)._
+_Updated 2026-11-09 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 ## At a glance
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 564 | 67% | 81 | 0 |
+| 587 | 67% | 81 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 564 |
+| Found | ████████████████████ | 587 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -24,34 +24,34 @@ _Updated 2026-11-06 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | | | |
 |---|---|---:|
-| Santa Monica, CA | ████████████████████ | 116 |
-| Irvine, CA | ██████████████████ | 107 |
-| Pasadena, CA | ██████████████████ | 104 |
-| Long Beach, CA | ████████████████ | 91 |
-| Costa Mesa, CA | ██████████████ | 84 |
-| Huntington Beach, CA | ███████████ | 62 |
+| Santa Monica, CA | ████████████████████ | 118 |
+| Pasadena, CA | ███████████████████ | 112 |
+| Irvine, CA | ██████████████████ | 109 |
+| Long Beach, CA | ████████████████ | 95 |
+| Costa Mesa, CA | ███████████████ | 87 |
+| Huntington Beach, CA | ███████████ | 66 |
 
 ## Business types
 
 | | | |
 |---|---|---:|
+| florist | ████████████████████ | 86 |
 | yoga studio | ████████████████████ | 84 |
-| florist | ███████████████████ | 81 |
-| gym | ████████████████ | 69 |
-| hair salon | ████████████████ | 66 |
-| restaurant | █████████████ | 55 |
-| boutique | ██████████ | 43 |
-| bakery | ██████████ | 43 |
-| coffee shop | ██████████ | 42 |
+| gym | ████████████████ | 70 |
+| hair salon | ████████████████ | 69 |
+| restaurant | █████████████ | 57 |
+| coffee shop | ███████████ | 47 |
+| pet groomer | ███████████ | 47 |
+| bakery | ██████████ | 44 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 491 |
+| None detected | ████████████████████ | 510 |
+| Square Appointments | █ | 22 |
 | Mindbody | █ | 21 |
-| Square Appointments | █ | 19 |
-| Vagaro | █ | 17 |
+| Vagaro | █ | 18 |
 | WellnessLiving | █ | 5 |
 | Acuity | █ | 4 |
 | GlossGenius | █ | 4 |
