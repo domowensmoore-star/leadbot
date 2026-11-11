@@ -1,18 +1,18 @@
 # Round Two Leads
 
-_Updated 2026-11-10 by the lead bot. Leads are in [leads.csv](leads.csv)._
+_Updated 2026-11-11 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 ## At a glance
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 589 | 67% | 81 | 0 |
+| 592 | 67% | 81 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 589 |
+| Found | ████████████████████ | 592 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -26,10 +26,10 @@ _Updated 2026-11-10 by the lead bot. Leads are in [leads.csv](leads.csv)._
 |---|---|---:|
 | Santa Monica, CA | ████████████████████ | 118 |
 | Pasadena, CA | ███████████████████ | 112 |
-| Irvine, CA | ██████████████████ | 109 |
-| Long Beach, CA | ████████████████ | 97 |
+| Irvine, CA | ███████████████████ | 110 |
+| Long Beach, CA | █████████████████ | 98 |
 | Costa Mesa, CA | ███████████████ | 87 |
-| Huntington Beach, CA | ███████████ | 66 |
+| Huntington Beach, CA | ███████████ | 67 |
 
 ## Business types
 
@@ -42,13 +42,13 @@ _Updated 2026-11-10 by the lead bot. Leads are in [leads.csv](leads.csv)._
 | restaurant | █████████████ | 57 |
 | coffee shop | ███████████ | 48 |
 | pet groomer | ███████████ | 47 |
-| boutique | ██████████ | 44 |
+| bakery | ███████████ | 46 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 512 |
+| None detected | ████████████████████ | 515 |
 | Square Appointments | █ | 22 |
 | Mindbody | █ | 21 |
 | Vagaro | █ | 18 |
