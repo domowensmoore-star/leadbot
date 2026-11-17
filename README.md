@@ -1,18 +1,18 @@
 # Round Two Leads
 
-_Updated 2026-11-13 by the lead bot. Leads are in [leads.csv](leads.csv)._
+_Updated 2026-11-17 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 ## At a glance
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 603 | 67% | 81 | 0 |
+| 614 | 67% | 81 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 603 |
+| Found | ████████████████████ | 614 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -24,34 +24,34 @@ _Updated 2026-11-13 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | | | |
 |---|---|---:|
-| Santa Monica, CA | ████████████████████ | 120 |
-| Pasadena, CA | ███████████████████ | 115 |
-| Irvine, CA | ██████████████████ | 111 |
-| Long Beach, CA | █████████████████ | 100 |
-| Costa Mesa, CA | ███████████████ | 88 |
-| Huntington Beach, CA | ████████████ | 69 |
+| Santa Monica, CA | ████████████████████ | 121 |
+| Pasadena, CA | ███████████████████ | 117 |
+| Irvine, CA | ███████████████████ | 112 |
+| Long Beach, CA | █████████████████ | 104 |
+| Costa Mesa, CA | ███████████████ | 90 |
+| Huntington Beach, CA | ████████████ | 70 |
 
 ## Business types
 
 | | | |
 |---|---|---:|
-| florist | ████████████████████ | 90 |
-| yoga studio | ███████████████████ | 84 |
-| gym | ████████████████ | 71 |
-| hair salon | ████████████████ | 70 |
+| florist | ████████████████████ | 91 |
+| yoga studio | ██████████████████ | 84 |
+| hair salon | ████████████████ | 73 |
+| gym | ████████████████ | 72 |
 | restaurant | █████████████ | 58 |
-| coffee shop | ███████████ | 48 |
-| bakery | ███████████ | 48 |
-| pet groomer | ███████████ | 48 |
+| coffee shop | ███████████ | 49 |
+| pet groomer | ███████████ | 49 |
+| boutique | ███████████ | 48 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 526 |
-| Square Appointments | █ | 22 |
+| None detected | ████████████████████ | 535 |
+| Square Appointments | █ | 23 |
 | Mindbody | █ | 21 |
-| Vagaro | █ | 18 |
+| Vagaro | █ | 19 |
 | WellnessLiving | █ | 5 |
 | Acuity | █ | 4 |
 | GlossGenius | █ | 4 |
