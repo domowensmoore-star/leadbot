@@ -6,13 +6,13 @@ _Updated 2026-11-17 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 614 | 67% | 81 | 0 |
+| 617 | 68% | 82 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 614 |
+| Found | ████████████████████ | 617 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -25,11 +25,11 @@ _Updated 2026-11-17 by the lead bot. Leads are in [leads.csv](leads.csv)._
 | | | |
 |---|---|---:|
 | Santa Monica, CA | ████████████████████ | 121 |
-| Pasadena, CA | ███████████████████ | 117 |
-| Irvine, CA | ███████████████████ | 112 |
+| Pasadena, CA | ████████████████████ | 118 |
+| Irvine, CA | ███████████████████ | 113 |
 | Long Beach, CA | █████████████████ | 104 |
 | Costa Mesa, CA | ███████████████ | 90 |
-| Huntington Beach, CA | ████████████ | 70 |
+| Huntington Beach, CA | ████████████ | 71 |
 
 ## Business types
 
@@ -39,17 +39,17 @@ _Updated 2026-11-17 by the lead bot. Leads are in [leads.csv](leads.csv)._
 | yoga studio | ██████████████████ | 84 |
 | hair salon | ████████████████ | 73 |
 | gym | ████████████████ | 72 |
-| restaurant | █████████████ | 58 |
+| restaurant | █████████████ | 59 |
 | coffee shop | ███████████ | 49 |
+| bakery | ███████████ | 49 |
 | pet groomer | ███████████ | 49 |
-| boutique | ███████████ | 48 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 535 |
-| Square Appointments | █ | 23 |
+| None detected | ████████████████████ | 537 |
+| Square Appointments | █ | 24 |
 | Mindbody | █ | 21 |
 | Vagaro | █ | 19 |
 | WellnessLiving | █ | 5 |
