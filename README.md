@@ -1,18 +1,18 @@
 # Round Two Leads
 
-_Updated 2026-11-17 by the lead bot. Leads are in [leads.csv](leads.csv)._
+_Updated 2026-11-18 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 ## At a glance
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 617 | 68% | 82 | 0 |
+| 618 | 67% | 82 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 617 |
+| Found | ████████████████████ | 618 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -25,7 +25,7 @@ _Updated 2026-11-17 by the lead bot. Leads are in [leads.csv](leads.csv)._
 | | | |
 |---|---|---:|
 | Santa Monica, CA | ████████████████████ | 121 |
-| Pasadena, CA | ████████████████████ | 118 |
+| Pasadena, CA | ████████████████████ | 119 |
 | Irvine, CA | ███████████████████ | 113 |
 | Long Beach, CA | █████████████████ | 104 |
 | Costa Mesa, CA | ███████████████ | 90 |
@@ -40,9 +40,9 @@ _Updated 2026-11-17 by the lead bot. Leads are in [leads.csv](leads.csv)._
 | hair salon | ████████████████ | 73 |
 | gym | ████████████████ | 72 |
 | restaurant | █████████████ | 59 |
+| boutique | ███████████ | 49 |
 | coffee shop | ███████████ | 49 |
 | bakery | ███████████ | 49 |
-| pet groomer | ███████████ | 49 |
 
 ## Booking tools found
 
@@ -52,8 +52,8 @@ _Updated 2026-11-17 by the lead bot. Leads are in [leads.csv](leads.csv)._
 | Square Appointments | █ | 24 |
 | Mindbody | █ | 21 |
 | Vagaro | █ | 19 |
+| Acuity | █ | 5 |
 | WellnessLiving | █ | 5 |
-| Acuity | █ | 4 |
 | GlossGenius | █ | 4 |
 | Boulevard | █ | 2 |
 
