@@ -1,18 +1,18 @@
 # Round Two Leads
 
-_Updated 2026-11-19 by the lead bot. Leads are in [leads.csv](leads.csv)._
+_Updated 2026-11-20 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 ## At a glance
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 625 | 68% | 81 | 0 |
+| 626 | 67% | 81 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 625 |
+| Found | ████████████████████ | 626 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -24,7 +24,7 @@ _Updated 2026-11-19 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | | | |
 |---|---|---:|
-| Santa Monica, CA | ████████████████████ | 124 |
+| Santa Monica, CA | ████████████████████ | 125 |
 | Pasadena, CA | ███████████████████ | 120 |
 | Irvine, CA | ██████████████████ | 113 |
 | Long Beach, CA | █████████████████ | 105 |
@@ -40,15 +40,15 @@ _Updated 2026-11-19 by the lead bot. Leads are in [leads.csv](leads.csv)._
 | hair salon | ████████████████ | 73 |
 | gym | ████████████████ | 72 |
 | restaurant | █████████████ | 61 |
+| bakery | ███████████ | 51 |
 | boutique | ███████████ | 50 |
-| bakery | ███████████ | 50 |
 | coffee shop | ███████████ | 49 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 543 |
+| None detected | ████████████████████ | 544 |
 | Square Appointments | █ | 25 |
 | Mindbody | █ | 21 |
 | Vagaro | █ | 19 |
