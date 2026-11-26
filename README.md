@@ -6,13 +6,13 @@ _Updated 2026-11-26 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | Leads found | No email signup | Average score | Clients won |
 |---:|---:|---:|---:|
-| 644 | 68% | 81 | 0 |
+| 654 | 68% | 82 | 0 |
 
 ## Pipeline
 
 | Stage | | Leads |
 |---|---|---:|
-| Found | ████████████████████ | 644 |
+| Found | ████████████████████ | 654 |
 | Contacted |  | 0 |
 | Replied |  | 0 |
 | Call booked |  | 0 |
@@ -24,31 +24,31 @@ _Updated 2026-11-26 by the lead bot. Leads are in [leads.csv](leads.csv)._
 
 | | | |
 |---|---|---:|
-| Santa Monica, CA | ████████████████████ | 127 |
-| Pasadena, CA | ████████████████████ | 124 |
+| Santa Monica, CA | ████████████████████ | 128 |
+| Pasadena, CA | ████████████████████ | 128 |
 | Irvine, CA | ██████████████████ | 115 |
-| Long Beach, CA | █████████████████ | 106 |
-| Costa Mesa, CA | ███████████████ | 97 |
-| Huntington Beach, CA | ████████████ | 75 |
+| Long Beach, CA | █████████████████ | 109 |
+| Costa Mesa, CA | ███████████████ | 98 |
+| Huntington Beach, CA | ████████████ | 76 |
 
 ## Business types
 
 | | | |
 |---|---|---:|
-| florist | ████████████████████ | 95 |
+| florist | ████████████████████ | 96 |
 | yoga studio | ███████████████████ | 90 |
 | hair salon | ████████████████ | 75 |
 | gym | ███████████████ | 72 |
-| restaurant | █████████████ | 62 |
-| boutique | ███████████ | 51 |
+| restaurant | ██████████████ | 65 |
+| boutique | ███████████ | 53 |
+| coffee shop | ███████████ | 52 |
 | bakery | ███████████ | 51 |
-| pet groomer | ███████████ | 50 |
 
 ## Booking tools found
 
 | | | |
 |---|---|---:|
-| None detected | ████████████████████ | 559 |
+| None detected | ████████████████████ | 569 |
 | Square Appointments | █ | 25 |
 | Mindbody | █ | 22 |
 | Vagaro | █ | 21 |
